@@ -10,7 +10,7 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 
 **Insightful Metrics:** Extract key metrics including forecast accuracy, market badge, monthly gross sale for customers, and more.
 
-**User-Friendly Design:** Emphasis on readability and simplicity in complex queries for easy comprehension. [View File](https://github.com/lokeshbhangale/SQL_Project_Finance_Analytics_and_Report_Generation/blob/main/Report%20in%20csv/forecast_accuracy_by_fiscal_year.csv) 
+**User-Friendly Design:** Emphasis on readability and simplicity in complex queries for easy comprehension.
 
 ## Project Structure
 
