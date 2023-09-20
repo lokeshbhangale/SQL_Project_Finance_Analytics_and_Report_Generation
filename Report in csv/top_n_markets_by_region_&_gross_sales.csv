@@ -1,0 +1,28 @@
+market,region,gross_total_mln,rnk
+India,APAC,139.70,1
+"South Korea",APAC,50.78,2
+Philiphines,APAC,30.15,3
+Australia,APAC,23.81,4
+Indonesia,APAC,14.85,5
+China,APAC,13.59,6
+Pakistan,APAC,11.11,7
+Newzealand,APAC,6.90,8
+Bangladesh,APAC,5.66,9
+Japan,APAC,4.91,10
+"United Kingdom",EU,22.32,1
+France,EU,19.36,2
+Italy,EU,14.24,3
+Germany,EU,13.74,4
+Portugal,EU,11.41,5
+Netherlands,EU,8.81,6
+Poland,EU,7.89,7
+Norway,EU,7.12,8
+Spain,EU,5.05,9
+Sweden,EU,0.44,10
+Austria,EU,0.31,11
+Brazil,LATAM,2.33,1
+Mexico,LATAM,1.84,2
+Chile,LATAM,0.19,3
+Columbia,LATAM,0.03,4
+USA,NA,90.32,1
+Canada,NA,29.11,2
