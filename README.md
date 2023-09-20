@@ -42,23 +42,39 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
     
   **|-- /views**
     
-    |   |-- customer_performance_view.sql
+    |   |-- gross_sales_view.txt
     
-    |   |-- market_trends_view.sql
+    |   |-- net_sales_view.txt
     
-    |   |-- ...
+    |   |-- sales_postinv_discount_view.txt
+
+    |   |-- sales_preinv_discount_view.txt
     
     |
     
   **|-- /stored_procedures**
     
-    |   |-- generate_forecast_report_sp.sql
+    |   |-- get_forecast_accuracy_sp.txt
     
-    |   |-- generate_market_badge_report_sp.sql
+    |   |-- get_market_badge_sp.txt
     
-    |   |-- ...
+    |   |-- get_monthly_gross_sales_for_customer_sp.txt
+
+    |   |-- get_top_n_customer_by_net_sales_sp.txt
+
+    |   |-- get_top_n_markets_by_net_sales_sp.txt
+
+    |   |-- get_top_n_products_per_division_by_qty_sold_sp.txt
+
+    |   |-- top_n_markets_by_gross_sales_&_fiscal_year_sp.txt
+
+    |   |-- top_n_products_by_netsales_sp.txt
     
     |
+    
+  **|-- /Other Queries**
+  
+    |   |-- Queries Using Window Function, CTEs and more.txt
 
 ## Usage
 
