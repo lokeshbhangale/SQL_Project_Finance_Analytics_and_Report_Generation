@@ -14,24 +14,42 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 
 ## Project Structure
 
-**    |-- /reports
+**  |-- /reports
+
     |   |-- forecast_accuracy_report.csv
+    
     |   |-- market_badge_report.csv
+    
     |   |-- monthly_gross_sale_customer_report.csv
+    
     |   |-- ...
+    
     |
+    
     |-- /user_defined_functions
+    
     |   |-- fiscal_year_quarter_udf.sql
+    
     |
+    
     |-- /views
+    
     |   |-- customer_performance_view.sql
+    
     |   |-- market_trends_view.sql
+    
     |   |-- ...
+    
     |
+    
     |-- /stored_procedures
+    
     |   |-- generate_forecast_report_sp.sql
+    
     |   |-- generate_market_badge_report_sp.sql
+    
     |   |-- ...
+    
     |
 **
 ## Usage
