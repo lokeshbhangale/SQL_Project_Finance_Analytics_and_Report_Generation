@@ -16,19 +16,27 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 
   **|-- /reports**
 
-    |   |-- forecast_accuracy_report.csv
+    |   |-- forecast_accuracy_by_fiscal_year.csv
     
-    |   |-- market_badge_report.csv
+    |   |-- monthly_gross_sales_by_customer.csv
     
-    |   |-- monthly_gross_sale_customer_report.csv
+    |   |-- top_n_customer_by_netsales.csv
     
-    |   |-- ...
+    |   |-- top_n_markets_by_netsales.csv
+
+    |   |-- top_n_markets_by_region_&_gross_sales.csv
+
+    |   |-- top_n_products_by_netsales.csv
+
+    |   |-- top_n_products_per_division_qty_sold.csv
     
     |
     
   **|-- /user_defined_functions**
     
-    |   |-- fiscal_year_quarter_udf.sql
+    |   |-- get_fiscal_year.txt
+
+    |   |-- get_fiscal_quarter.txt
     
     |
     
