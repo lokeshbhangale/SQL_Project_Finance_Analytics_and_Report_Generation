@@ -7,7 +7,9 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 ## Key Features
 
 **Customizable Reports:** Generate reports based on input parameters like in_fiscal_year, in_top_n, and customer_code.
+
 **Insightful Metrics:** Extract key metrics including forecast accuracy, market badge, monthly gross sale for customers, and more.
+
 **User-Friendly Design:** Emphasis on readability and simplicity in complex queries for easy comprehension.
 
 ## Project Structure
