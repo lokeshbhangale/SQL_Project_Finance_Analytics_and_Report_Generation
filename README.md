@@ -37,8 +37,10 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 ## Usage
 
 **1. Generating Reports:**
+
 Navigate to the queries directory and execute the desired SQL files to generate reports.
 Input parameters such as in_fiscal_year, in_top_n, and customer_code as required.
 
-**Viewing Reports:**
+**2. Viewing Reports:**
+
 Access generated reports from the reports directory in CSV format.
