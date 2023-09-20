@@ -1,0 +1,26 @@
+CREATE PROCEDURE `top_n_markets_by_gross_sale_&_fiscal_year`(
+		in_fiscal_year int,
+    		in_top_n int
+	)
+	BEGIN
+		with cte1 as (
+			select gs.market,
+				dc.region,
+				round(sum(gs.gross_price_total)/1000000,2) as gross_total_mln
+			from gross_sales gs
+			join dim_customer dc
+					on dc.customer_code = gs.customer_code and
+					dc.market = gs.market
+			where fiscal_year = in_fiscal_year
+			group by market),
+		cte2 as (
+			select *,
+				rank() over(partition by region order by gross_total_mln desc) as rnk
+			from cte1 )
+	select 
+		* 
+	from 
+		cte2
+	where 
+		rnk<=in_top_n;
+	END

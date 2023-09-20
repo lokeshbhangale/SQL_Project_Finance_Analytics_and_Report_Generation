@@ -1,0 +1,16 @@
+Top products by fiscal year and netsales
+
+	CREATE PROCEDURE `top_n_product_by_netsales`(
+		in_fiscal_year int,
+    		in_top_n int
+	)
+	BEGIN
+		select 
+			product,
+    			net_sales
+		from net_sales
+		where 
+			fiscal_year=in_fiscal_year
+		order by net_sales desc
+		limit in_top_n;
+	END
