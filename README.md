@@ -14,7 +14,7 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 
 ## Project Structure
 
-**  |-- /reports
+  **|-- /reports**
 
     |   |-- forecast_accuracy_report.csv
     
@@ -26,13 +26,13 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
     
     |
     
-    |-- /user_defined_functions
+  **|-- /user_defined_functions**
     
     |   |-- fiscal_year_quarter_udf.sql
     
     |
     
-    |-- /views
+  **|-- /views**
     
     |   |-- customer_performance_view.sql
     
@@ -42,7 +42,7 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
     
     |
     
-    |-- /stored_procedures
+  **|-- /stored_procedures**
     
     |   |-- generate_forecast_report_sp.sql
     
@@ -51,7 +51,7 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
     |   |-- ...
     
     |
-**
+
 ## Usage
 
 **1. Generating Reports:**
