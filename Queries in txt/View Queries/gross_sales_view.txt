@@ -1,0 +1,11 @@
+CREATE VIEW `gross_sales` AS
+	select 
+		ns.date,ns.fiscal_year,
+    		ns.customer_code,dc.customer,
+    		ns.market,ns.product_code,ns.product,ns.variant,
+    		ns.sold_quantity,fgp.gross_price,ns.gross_price_total
+	from net_sales ns
+		join dim_customer dc on dc.customer_code = ns.customer_code and
+						dc.market = ns.market
+		join fact_gross_price fgp on fgp.product_code=ns.product_code and 
+							fgp.fiscal_year=ns.fiscal_year
