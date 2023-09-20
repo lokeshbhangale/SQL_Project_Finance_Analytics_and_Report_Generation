@@ -16,7 +16,7 @@ This project focuses on Finance Analytics and Report Generation, aimed at provid
 
   **|-- /reports**
 
-    |   |-- forecast_accuracy_by_fiscal_year.csv  [View File] (https://github.com/lokeshbhangale/SQL_Project_Finance_Analytics_and_Report_Generation/blob/main/Report%20in%20csv/forecast_accuracy_by_fiscal_year.csv) 
+    |   |-- forecast_accuracy_by_fiscal_year.csv  [View File].(https://github.com/lokeshbhangale/SQL_Project_Finance_Analytics_and_Report_Generation/blob/main/Report%20in%20csv/forecast_accuracy_by_fiscal_year.csv) 
     
     |   |-- monthly_gross_sales_by_customer.csv
     
